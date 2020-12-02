@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lldemo"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:background="@drawable/whiteplane_background"
+    android:layout_marginTop="1dp"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_weight="1.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_TV"
+        android:hint="name"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rollno_TV"
+        android:hint="flat no"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_TV"
+        android:hint="Street"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:hint="title"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:layout_height="20dp">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:layout_height="20dp"
+        android:background="@drawable/default_button_inactive"
+        android:id="@+id/img_selector"/>
+    </LinearLayout>
+</LinearLayout>
